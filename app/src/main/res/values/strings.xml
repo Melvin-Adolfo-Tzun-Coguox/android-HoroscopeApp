@@ -8,4 +8,19 @@
     <string name="horoscope">Horoscope</string>
     <string name="palmistry">Palmistry</string>
     <string name="luck">Luck</string>
+
+    <string name="aries">Aries</string>
+    <string name="taurus">Tauro</string>
+    <string name="gemini">Geminis</string>
+    <string name="cancer">Cancer</string>
+    <string name="leo">Leo</string>
+    <string name="virgo">Virgo</string>
+    <string name="libra">Libra</string>
+    <string name="scorpio">Escorpio</string>
+    <string name="sagitario">Sagitario</string>
+    <string name="capricornio">Capricornio</string>
+    <string name="aquario">Aquario</string>
+    <string name="piscis">Piscis</string>
+
+
 </resources>
