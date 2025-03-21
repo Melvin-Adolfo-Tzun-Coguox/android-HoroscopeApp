@@ -44,8 +44,9 @@ android {
 dependencies {
 
     implementation(libs.androidx.media3.exoplayer.dash)
+    implementation(libs.firebase.crashlytics.buildtools)
     val navVersion= "2.7.1"
-    val cameraVersion= "1.2.3"
+    val cameraVersion= "1.4.0"
 
     //navComponent
     implementation("androidx.navigation:navigation-fragment-ktx:$navVersion")
@@ -58,13 +59,17 @@ dependencies {
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     //interceptor
-    implementation("com.squareup.okhttp3:logging-interceptor:4.3.1")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
     //camera x
     implementation ("androidx.camera:camera-core:${cameraVersion}")
     implementation ("androidx.camera:camera-camera2:${cameraVersion}")
     implementation ("androidx.camera:camera-lifecycle:${cameraVersion}")
     implementation ("androidx.camera:camera-view:${cameraVersion}")
     implementation ("androidx.camera:camera-extensions:${cameraVersion}")
+
+    implementation("com.google.guava:guava:31.1-android")
+
+
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
