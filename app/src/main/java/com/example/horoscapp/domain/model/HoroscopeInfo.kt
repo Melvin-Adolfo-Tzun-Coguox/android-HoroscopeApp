@@ -12,8 +12,8 @@ sealed class HoroscopeInfo (val img:Int , val name:Int){
     data object Virgo:HoroscopeInfo(R.drawable.virgo,R.string.virgo)
     data object Libra:HoroscopeInfo(R.drawable.libra,R.string.libra)
     data object Scorpio:HoroscopeInfo(R.drawable.escorpio,R.string.scorpio)
-    data object Saggitarius:HoroscopeInfo(R.drawable.sagitario,R.string.sagitario)
+    data object Sagittarius:HoroscopeInfo(R.drawable.sagitario,R.string.sagitario)
     data object Capricorn:HoroscopeInfo(R.drawable.capricornio,R.string.capricornio)
     data object Aquarius:HoroscopeInfo(R.drawable.aquario,R.string.aquario)
-    data object Piscis:HoroscopeInfo(R.drawable.piscis,R.string.piscis)
+    data object Pisces:HoroscopeInfo(R.drawable.piscis,R.string.piscis)
 }

@@ -38,12 +38,12 @@ android {
     }
     buildFeatures{
         viewBinding=true
-
     }
 }
 
 dependencies {
 
+    implementation(libs.androidx.media3.exoplayer.dash)
     val navVersion= "2.7.1"
 
     //navComponent
@@ -52,6 +52,12 @@ dependencies {
     //dagerhilt
     implementation("com.google.dagger:hilt-android:2.48")
     kapt("com.google.dagger:hilt-compiler:2.48")
+
+    //retrofit consumo de appi conversor gson
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    //interceptor
+    implementation("com.squareup.okhttp3:logging-interceptor:4.3.1")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
